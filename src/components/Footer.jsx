@@ -3,8 +3,8 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-200" role="contentinfo">
       <div className="container mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="flex items-start gap-3">
-          <img src="/logo.svg" alt="Aditya Digitals logo" className="w-10 h-10 rounded" />
+        <div className="flex items-start gap-4">
+          <img src="/sitelogo.png" alt="Aditya Digitals logo" className="w-12 h-12 md:w-14 md:h-14 rounded-md" />
           <div>
             <p className="font-semibold">Aditya Digitals</p>
             <p className="text-sm text-gray-400 max-w-xs">We build responsive websites and digital products to help businesses grow.</p>

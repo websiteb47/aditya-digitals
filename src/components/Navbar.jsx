@@ -32,9 +32,9 @@ export default function Navbar() {
 
       <nav className="w-full bg-white shadow fixed z-50" aria-label="Main navigation">
         <div className="container mx-auto flex items-center justify-between px-4 py-3">
-          <Link to="/" aria-label="Aditya Digitals home" className="flex items-center gap-3">
-            <img src="/logo.svg" alt="Aditya Digitals logo" className="w-10 h-10 rounded" />
-            <h1 className="text-lg font-semibold">Aditya Digitals</h1>
+          <Link to="/" aria-label="Aditya Digitals home" className="flex items-center gap-4">
+            <img src="/sitelogo.png" alt="Aditya Digitals logo" className="w-12 h-12 md:w-14 md:h-14 rounded-md" />
+            <h1 className="text-lg md:text-xl font-semibold">Aditya Digitals</h1>
           </Link>
 
           <div className="hidden md:flex md:items-center gap-6">
